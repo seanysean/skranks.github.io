@@ -294,9 +294,18 @@
         </div>
         </p>-->
 
-        <?php
-            include("form.php");
-        ?>
+        <p>
+            <form action="form.php" method="post" enctype="multipart/form-data">
+                <p>Name: <input type="text" name="name" /></p>
+                <p>KDR: <input type="text" name="KDR" /></p>
+                <p>Kills: <input type="text" name="kills" /></p>
+                <p>Bots Kills: <input type="text" name="botsKills" /></p>
+                <p>Deaths: <input type="text" name="deaths" /></p>
+                <p>Wins: <input type="text" name="wins" /></p>
+                <p>Screenshot: <input type="file" name="screenshot" id="screenshot" /></p>
+                <p><input type="submit" /></p>
+            </form>
+        </p>
 
         <footer>
             Please note: This is an unofficial fan site and is unaffiliated with Tall Team. 
